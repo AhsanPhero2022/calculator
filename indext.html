@@ -8,6 +8,48 @@
     <link rel="stylesheet" href="abir.css">
 </head>
 <body>
-    
+        <div class="container">
+                        <h1 style="color: rgb(11, 15, 15);">My Robot Calculator</h1>
+             <input type="text" id="MyResult" style="width: 351px; height: 45px; background-color: gainsboro;">
+            
+        <table>
+            <tr>
+                <td><input type="button" value="C" onclick="DeleteMe()"></td>
+                <td><input type="button" value="(" onclick="Calculator('(')"></td>
+                <td><input type="button" value=")" onclick="Calculator(')')"></td>
+                <td><input type="button" value="$" onclick="Calculator('আমি একটা গাধা!')"></td>
+           </tr>
+
+           <tr>
+                <td><input type="button" value="7" onclick="Calculator('7')"></td>
+                <td><input type="button" value="8" onclick="Calculator('8')"></td>
+                <td><input type="button" value="9" onclick="Calculator('9')"></td>
+                <td><input type="button" value="+" onclick="Calculator('+')"></td>
+         </tr>
+
+       <tr>
+            <td><input type="button" value="4" onclick="Calculator('4')"></td>
+            <td><input type="button" value="5" onclick="Calculator('5')"></td>
+            <td><input type="button" value="6" onclick="Calculator('6')"></td>
+            <td><input type="button" value="-" onclick="Calculator('-')"></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="1" onclick="Calculator('1')"></td>
+            <td><input type="button" value="2" onclick="Calculator('2')"></td>
+            <td><input type="button" value="3" onclick="Calculator('3')"></td>
+            <td><input type="button" value="x" onclick="Calculator('*')"></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="0" onclick="Calculator('0')"></td>
+            <td><input type="button" value="." onclick="Calculator('.')"></td>
+            <td><input type="button" value="/" onclick="Calculator('/')"></td>
+            <td><input type="button" value="=" onclick="Answer()"></td>
+        </tr>
+        </table>
+       </div>
+
+   <script src="abir.js"></script>
 </body>
 </html>
